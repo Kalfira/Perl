@@ -1,4 +1,5 @@
 use Moose;
 
-chomp(my @list = <STDIN>);
-print @list;
+my $string = "String ";
+my $result = $string . $string;
+print $result;
